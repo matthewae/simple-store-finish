@@ -52,7 +52,6 @@
                 @endforeach
             </div>
 
-            <!-- Menampilkan pagination -->
             <div class="d-flex justify-content-center mt-4">
                 {{ $products->links() }}
             </div>
